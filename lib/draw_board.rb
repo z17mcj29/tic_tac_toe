@@ -12,11 +12,11 @@ class DrawBoard
 
 end
 
-board = [
-          ["X", "X", "X"],
-          ["X", "X", "X"],
-          ["X", "X", "X"]
-]
+# board = [
+#           ["X", "X", "X"],
+#           ["X", "X", "X"],
+#           ["X", "X", "X"]
+# ]
 
-DrawBoard.new.draw(board)
+# DrawBoard.new.draw(board)
 
