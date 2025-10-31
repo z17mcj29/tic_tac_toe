@@ -3,13 +3,13 @@
 class Communication
 
   def game_start
-    puts  "Welcome to Tic Tac Toe\n" \
-          "Take turns placing your X's\n" \
-          "and O's\n" \
+    puts  "------Welcome to Tic Tac Toe------\n" \
+          "Take turns placing your X's and O's\n" \
           "Use 1 thru 9 to choose your square!\n" \
           "1 will be top left, 2 top middle, and\n" \
           "continue so on until 9 which is bottom right!\n" \
-          "Good Luck!!!!"
+          "The below game board shows a visual\n" \
+          "representation of this. Good Luck!!!!"
   end
 
   def your_turn_X
