@@ -34,8 +34,9 @@ loop do
   gl.update_board(player_x, board, choice)
   draw.draw(board)
 
-  break puts "Tie!!!" if gl.check_game_draw(board)
   break puts "Player X wins !!! Congratulations!" if gl.check_game_end(board)
+  break puts "Tie!!!" if gl.check_game_draw(board)
+  
 
 
   puts "Please enter your selection player O !!!"
@@ -45,8 +46,8 @@ loop do
   gl.update_board(player_o, board, choice)
   draw.draw(board)
 
-  break puts "Tie!!!" if gl.check_game_draw(board)
   break puts "Player O wins !!! Congratulations!" if gl.check_game_end(board)
+  break puts "Tie!!!" if gl.check_game_draw(board)  
 end
 
 
